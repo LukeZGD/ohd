@@ -1,11 +1,20 @@
 # ohd
 
-Offsets for Home Depot 8.x A5(X)
+Patcher script for Home Depot 8.x A5(X)
 
-```
-Home Depot 8.4.1 patch to 8.x
-replaces: wall.supplies/offsets
-with:     lukezgd.github.io/ohd
+### How to use patcher script
 
-printf '\x6C\x75\x6B\x65\x7A\x67\x64\x2E\x67\x69\x74\x68\x75\x62\x2E\x69\x6F\x2F\x6F\x68\x64' | dd of='Payload/Home Depot.app/Home Depot' bs=1 seek=486669 count=20 conv=notrunc
-```
+- Get the [patcher script](https://raw.githubusercontent.com/LukeZGD/ohd/main/iPad2%2C5-8.2) (right-click and Save As)
+- Get [HomeDepot for iOS 8.4.1](http://wall.supplies/OLD%20iPhone%20HACKED.html)
+- Excerpt below is based on https://ios.cfw.guide/installing-h3lix/#patching-the-application
+
+### macOS/Linux
+1. Open your Terminal application
+1. Change directory to the folder where you saved the script and MixtapePlayer.ipa files
+    - If you saved them to Downloads, this would be cd ~/Downloads
+1. Type ./patch.sh in the terminal
+1. Drag and drop the MixtapePlayer ipa file into the terminal
+1. Press Enter
+
+### Windows
+1. Drag the MixtapePlayer ipa file onto the patch.cmd file
