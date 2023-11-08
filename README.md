@@ -1,10 +1,12 @@
 # ohd
 
-Patcher script for Home Depot 8.x A5(X)
+HomeDepot patcher script to jailbreak A5(X) iOS 8.x
+
+Once patched, HomeDepot will be able to jailbreak not just iOS 8.4.1, but also all of iOS 8.0 to 8.4. For A5(X) devices only: iPhone 4S, iPad 2, 3, mini, iPod touch 5.
 
 ### How to use patcher script
 
-- Get the [patcher script](https://raw.githubusercontent.com/LukeZGD/ohd/main/iPad2%2C5-8.2) (right-click and Save As)
+- Get the [patcher script](https://github.com/LukeZGD/ohd/releases/latest)
 - Get [HomeDepot for iOS 8.4.1](http://wall.supplies/OLD%20iPhone%20HACKED.html)
 - Excerpt below is based on https://ios.cfw.guide/installing-h3lix/#patching-the-application
 
@@ -17,4 +19,5 @@ Patcher script for Home Depot 8.x A5(X)
 1. Press Enter
 
 ### Windows
+- This script makes use of bsdtar. Make sure that you are using Windows 10 1803 or newer (minimum: 17063)
 1. Drag the MixtapePlayer ipa file onto the patch.cmd file
