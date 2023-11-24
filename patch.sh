@@ -4,7 +4,7 @@
 
 cd "$(dirname "$0")"
 
-if [ $# != 2 ]; then
+if [ $# != 1 ]; then
     echo "Usage: $0 /path/to/input_ipa"
     exit 1
 fi

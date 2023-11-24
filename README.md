@@ -19,5 +19,5 @@ Once patched, HomeDepot will be able to jailbreak not just iOS 8.4.1, but also a
 1. Press Enter
 
 ### Windows
-- This script makes use of bsdtar. Make sure that you are using Windows 10 1803 or newer (minimum: 17063)
-1. Drag the MixtapePlayer ipa file onto the patch.cmd file
+- This script makes use of dd from win-bash (shell.w32)
+1. Drag the MixtapePlayer ipa file onto the patch.cmd file. Make sure that the paths have no spaces.

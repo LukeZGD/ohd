@@ -1,6 +1,6 @@
 @echo off
 
-echo %1
+echo Input file: %1
 
 if "%1" == "" (
     echo Usage: patch.cmd /path/to/input_ipa
@@ -32,10 +32,7 @@ tar -xf %1 -C unpacked_homedepot
 echo Patching
 del "unpacked_homedepot\Payload\Home Depot.app\Info.plist"
 copy Info.plist "unpacked_homedepot\Payload\Home Depot.app\Info.plist"
-rem Below you can see a lazy way of patching: using bspatch lol
-move "unpacked_homedepot\Payload\Home Depot.app\Home Depot" HomeDepot
-bspatch HomeDepot "unpacked_homedepot\Payload\Home Depot.app\Home Depot" HomeDepot.patch
-del HomeDepot
+dd if=HomeDepot.patch of="unpacked_homedepot\Payload\Home Depot.app\Home Depot" bs=1 seek=486669 count=21 conv=notrunc
 
 echo Compressing
 move unpacked_homedepot\Payload Payload
