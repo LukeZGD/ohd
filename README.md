@@ -1,10 +1,10 @@
+# It is recommended to just use [EverPwnage](https://github.com/LukeZGD/EverPwnage) instead
+
 # ohd
 
 HomeDepot patcher script to jailbreak A5(X) iOS 8.x
 
 Once patched, HomeDepot will be able to jailbreak not just iOS 8.4.1, but also all of iOS 8.0 to 8.4. For A5(X) devices only: iPhone 4S, iPad 2, 3, mini, iPod touch 5.
-
-It is recommended to just use [EverPwnage](https://github.com/LukeZGD/EverPwnage) instead
 
 ### How to use patcher script
 
